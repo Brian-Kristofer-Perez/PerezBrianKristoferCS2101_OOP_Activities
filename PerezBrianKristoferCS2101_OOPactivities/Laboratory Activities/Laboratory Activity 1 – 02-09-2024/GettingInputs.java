@@ -34,6 +34,8 @@ public class GettingInputs {
         System.out.println("Title: " + Title);
         System.out.println("Artist: " + Artist);
 
+        scanner.close();
+
 
     }
 }
