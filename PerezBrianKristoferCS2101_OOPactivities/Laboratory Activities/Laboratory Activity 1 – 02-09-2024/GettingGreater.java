@@ -32,7 +32,7 @@ public class GettingGreater {
         System.out.println(two + ": " + (int) two);
 
         //Closing scanner
-        scanner.close()
+        scanner.close();
         
 
 
