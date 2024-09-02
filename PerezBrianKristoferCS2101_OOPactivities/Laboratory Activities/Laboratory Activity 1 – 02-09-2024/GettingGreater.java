@@ -31,7 +31,9 @@ public class GettingGreater {
         System.out.println(one + ": " + (int) one);
         System.out.println(two + ": " + (int) two);
 
-
+        //Closing scanner
+        scanner.close()
+        
 
 
 
