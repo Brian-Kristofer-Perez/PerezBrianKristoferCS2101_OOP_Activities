@@ -47,10 +47,25 @@ public class Car {
                 break;
             case 'L':
                 formattedSize = "large";
+                break;
             default:
                 formattedSize = "unknown";
         }
 
         return String.format("Car (%s) - P%s - %s", color, formattedPrice, formattedSize);
+    }
+
+    public static void main(String args[]){
+
+
+        Car car1 = new Car("Red", 100000, 's');
+        Car car2 = new Car("Blue", 600000, 'l');
+        Car car3 = new Car("Yellow", 150000, 'm');
+        Car car4 = new Car("Green", 6000000, 'l');
+
+        System.out.println(car1);
+        System.out.println(car2);
+        System.out.println(car3);
+        System.out.println(car4);
     }
 }
