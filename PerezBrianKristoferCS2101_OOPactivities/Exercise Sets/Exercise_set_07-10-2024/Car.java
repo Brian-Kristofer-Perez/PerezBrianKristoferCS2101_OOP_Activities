@@ -29,7 +29,7 @@ public class Car {
         this.price = price;
     }
     public void setSize(char size){
-        this.size = size;
+        this.size = Character.toUpperCase(size);
     }
 
     // to string
@@ -57,12 +57,13 @@ public class Car {
 
     public static void main(String args[]){
 
-
+        // constructors
         Car car1 = new Car("Red", 100000, 's');
-        Car car2 = new Car("Blue", 600000, 'l');
+        Car car2 = new Car("Blue", 12345678, 'l');
         Car car3 = new Car("Yellow", 150000, 'm');
         Car car4 = new Car("Green", 6000000, 'l');
 
+        //output
         System.out.println(car1);
         System.out.println(car2);
         System.out.println(car3);
