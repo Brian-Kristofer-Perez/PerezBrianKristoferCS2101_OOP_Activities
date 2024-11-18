@@ -6,22 +6,22 @@ public class ArtistDemo {
 
         System.out.println();
 
-        Singer singer = new Singer("Rick Astley", "British",58, "Music", Genre.POP);
+        Singer singer = new Singer("Rick Astley", "British", 58, "Music", Genre.POP);
         singer.displayInfo();
 
         System.out.println();
 
-        Painter painter = new Painter("Bob Ross", "American",52, "Painting", Medium.OIL);
+        Painter painter = new Painter("Bob Ross", "American", 52, "Painting", Medium.OIL);
         painter.displayInfo();
 
         System.out.println();
 
-        Writer writer = new Writer("Jose Rizal", "Filipino",28, "Writing", WritingStyle.POETRY);
+        Writer writer = new Writer("Jose Rizal", "Filipino", 28, "Writing", WritingStyle.POETRY);
         writer.displayInfo();
 
         System.out.println();
 
-        Dancer dancer = new Dancer("Michael Jackson", "American",50, "Dancing", DanceStyle.CONTEMPORARY);
+        Dancer dancer = new Dancer("Michael Jackson", "American", 50, "Dancing", DanceStyle.CONTEMPORARY);
         dancer.displayInfo();
     }
 }
