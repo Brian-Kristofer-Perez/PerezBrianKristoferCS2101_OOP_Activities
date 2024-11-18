@@ -23,9 +23,5 @@ public class ArtistDemo {
 
         Dancer dancer = new Dancer("Michael Jackson", "American",50, "Dancing", DanceStyle.CONTEMPORARY);
         dancer.displayInfo();
-
-
-
-
     }
 }
